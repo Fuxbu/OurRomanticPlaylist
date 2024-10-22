@@ -105,8 +105,9 @@ progress::-moz-progress-bar {
 
 @media (max-width: 480px) {
     .controls button {
-        padding: 5px; /* Smaller buttons on phones */
-        font-size: 20px; /* Adjust font size */
+        padding: 20px; /* Smaller buttons on phones */
+        font-size: 30px;/* Adjust font size */
+        margin-left: 20px;
     }
 
     h2 {
