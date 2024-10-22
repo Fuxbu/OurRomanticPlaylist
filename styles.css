@@ -99,7 +99,7 @@ progress::-moz-progress-bar {
     }
 
     h2 {
-        font-size: 24px; /* Slightly smaller heading */
+        font-size: 28px; /* Slightly smaller heading */
     }
 }
 
@@ -111,6 +111,6 @@ progress::-moz-progress-bar {
     }
 
     h2 {
-        font-size: 20px; /* Further reduce heading size */
+        font-size: 24px; /* Further reduce heading size */
     }
 }
