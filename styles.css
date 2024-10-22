@@ -96,7 +96,7 @@ progress::-moz-progress-bar {
     .player-container {
         width: 95%; /* Wider on smaller screens */
         padding: 15px;
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     h2 {
