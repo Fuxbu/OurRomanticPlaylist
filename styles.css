@@ -1,5 +1,6 @@
 body {
-    background-image: url('bg.jpg');
+    background-image: url('bg.jpg') ;
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -95,6 +96,7 @@ progress::-moz-progress-bar {
     .player-container {
         width: 95%; /* Wider on smaller screens */
         padding: 15px;
+        margin-left: 120px;
     }
 
     h2 {
