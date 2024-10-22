@@ -1,6 +1,5 @@
 body {
     background-image: url('bg.jpg') ;
-    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -106,7 +105,7 @@ progress::-moz-progress-bar {
 
 @media (max-width: 480px) {
     .controls button {
-        padding: 10px; /* Smaller buttons on phones */
+        padding: 20px; /* Smaller buttons on phones */
         font-size: 20px; /* Adjust font size */
     }
 
