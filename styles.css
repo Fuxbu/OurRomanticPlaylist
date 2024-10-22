@@ -1,0 +1,114 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.player-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff8da1; /* Romantic theme color for the heading */
+    text-shadow:
+        0 0 12px rgba(255, 140, 160, 0.9),  /* Brighter inner glow */
+        0 0 25px rgba(255, 140, 160, 0.7),  /* Softer outer glow */
+        0 0 35px rgba(255, 140, 160, 0.5),  /* Wider glow */
+        0 0 0 rgba(255, 255, 255, 1),        /* White outline */
+        0 0 2px rgba(255, 255, 255, 1);      /* Thinner white outline for clarity */
+}
+
+
+
+
+.gallery {
+    margin-bottom: 20px;
+    transition: opacity 3s ease-in-out; /* Smooth transition for fading */
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background: #ff8da1;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.controls button:hover {
+    transform: scale(1.2); /* Hover effect */
+}
+
+.progress-bar-container {
+    margin-top: 20px;
+}
+
+progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ffcce0; /* Soft romantic pink background */
+    overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ffcce0; /* Background of progress bar */
+}
+
+progress::-webkit-progress-value {
+    background-color: #ff6080; /* Glowing bar color */
+    transition: width 0.25s; /* Smooth transition for the progress */
+}
+
+progress::-moz-progress-bar {
+    background-color: #ff6080; /* Glowing bar color for Firefox */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .player-container {
+        width: 95%; /* Wider on smaller screens */
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px; /* Slightly smaller heading */
+    }
+}
+
+@media (max-width: 480px) {
+    .controls button {
+        padding: 10px; /* Smaller buttons on phones */
+        font-size: 20px; /* Adjust font size */
+    }
+
+    h2 {
+        font-size: 20px; /* Further reduce heading size */
+    }
+}

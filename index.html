@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Playlist</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="player-container">
+        <h2>Our Romantic Playlist</h2>
+        <div class="gallery">
+            <img id="gallery-image" src="OurImg1.jpeg" alt="Gallery Image">
+        </div>
+
+        <div class="controls">
+            <button id="prev-button"><i class="fas fa-backward"></i></button>
+            <button id="play-pause-button"><i class="fas fa-play"></i></button>
+            <button id="next-button"><i class="fas fa-forward"></i></button>
+        </div>
+
+        <div class="progress-bar-container">
+            <audio id="audio">
+                <source id="audio-source" src="Song1.mp3" type="audio/mpeg">
+            </audio>
+            <progress id="progress-bar" value="0" max="100"></progress>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
