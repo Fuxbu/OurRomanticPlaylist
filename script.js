@@ -38,6 +38,14 @@ const songs = [
   "Song13.mp3",
   "Song14.mp3",
   "Song15.mp3",
+  "Song21.mp3",  
+  "Song22.mp3",  
+  "Song23.mp3",  
+  "Song24.mp3",  
+  "Song25.mp3",  
+  "Song26.mp3",  
+  "Song27.mp3",
+
 ];
 
 // Function to update the gallery image
